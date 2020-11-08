@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.1",
+  "description": "server express simple post and get mongodb",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sebastianoscarlopez/docker-test-server.git"
+  },
+  "keywords": [
+    "docker",
+    "server"
+  ],
+  "author": "Sebastian Oscar Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianoscarlopez/docker-test-server/issues"
+  },
+  "homepage": "https://github.com/sebastianoscarlopez/docker-test-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
